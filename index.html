@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="/project.html">
+                         calculator page 
+                        </a>
+                        <a href="/this.html" class="navbar-brand">
+                        console page 
+                        </a>
+                        <a href="/object.html" class="navbar-brand">Obj</a>
+                        <a href="/class.html" class="navbar-brand">grid</a>
+                        <div id="clock"></div>
+                      </div>
+                    </div>
+                  </nav>
+   <div class="container">    
+       <div class="row">         
+        <div id='main'></div>
+         <input  type= 'text'class='text'> 
+         <input type="text" class='text2'>
+         <button class='btn btn-primary btn-small'id='test' onclick="add()">check</button>
+        
+        <br>
+        <br> 
+        <div id ='second'>
+           <p id='word'> Change value here</p>
+            <button class='new btn btn-primary' onclick="change()">Click Here</button>
+        </div>
+       </div> 
+       <div class="row">
+        <div class='col-md-4' id = 'person'>
+               <h3 id='boyGirl'></h3>
+               <img id='pic' src="" alt="click person button please....">
+               <h4 id='fName'></h4>
+               <h4 id="lName"></h4>
+               <h5 id="dob"></h5>
+               <h5 id="age"></h5> 
+        </div>
+        <div class="col-md-4" id="changeP">
+            <button class="btn btn-danger" id='next' onclick="load()">new person</button>
+        </div>
+
+    </div>
+    </div>
+        <script src='/js/javascript.js'></script>
+        <script src="/js/fetch.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    </body>
+</html>

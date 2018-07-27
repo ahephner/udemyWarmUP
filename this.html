@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar">
+                        <a class="navbar-brand" href="/index.html">
+                         home
+                        </a>
+                        <a class="navbar-brand" href="/project.html">
+                        calculator
+                        </a>
+                        <a href="/object.html" class="navbar-brand">Obj</a>
+                        <a href="/class.html" class="navbar-brand">grid</a>
+                        <div id="clock"></div>
+                        <ul class=" nav navbar-nav navbar-right" >
+                          <input type="text" id='userName' class="form-inline" placeholder="AJ">
+                          <input type="text" id='passWord' class="form-inline" placeholder="hey">
+                          <button class="btn btn-danger btn-xs" onclick="read()">Enter</button>  
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <h3>Try Catch Throw: </h3>
+                          <p class="throw"></p>
+                        </div>   
+                      </div>
+
+                      <div class="row"> 
+                        <h3> Click button below to launch modal</h3>
+                        <button id = 'launch' class="btn btn-danger" onclick="">Launch</button>
+                      </div>
+                      
+                      <div class="modal">
+                        
+                        <div class="modalContent">
+                          <h6 class='titleCard'>This is the title</h6>
+                          <span class='close'>&times;</span>
+                          <p class='modalText'>Hey there</p>
+                          <hr><hr>
+                          <br><br><br><br>
+                          <button id='done' class="btn btn-success">close</button>
+                          
+                        </div></div>
+                    </div>
+                    <script src="/js/modal.js"></script>
+            <script src="/js/this.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    </body>
+</html>    

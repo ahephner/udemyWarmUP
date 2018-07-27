@@ -1,0 +1,51 @@
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="/index.html">
+                         index 
+                        </a>
+                        <a href="/this.html" class="navbar-brand">
+                        console page 
+                        </a>
+                        <a href="/object.html" class="navbar-brand">Obj</a>
+                        <a href="/class.html" class="navbar-brand">grid</a>
+                        <div class= 'navbar-brand' ><span id="clock"></span></div>
+                      </div>
+                    </div>
+                  </nav>
+            
+    <div id='enter' class='form-group'>
+       <form >
+        <input type="number" name="" id="num1">
+        <select name="dropdown" id="math">
+            <option value="add">add</option>
+            <option value="subtract">subtract</option>
+            <option value="times">times</option>
+            <option value="divide">divide</option>
+        </select>
+        <input type="number" name="second" id="num2">
+        <input onclick='show()' type="button" value="Calculate">
+
+       </form>
+       
+    </div>
+    <form class="form-inline">
+       <div class='form-group'>
+            <h3 class='answer'>Your Answer:</h3>
+            <p class= 'answer' id='answer'>67</p>
+            
+        </div>
+    </form>
+        <script src="/js/project.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+    </body>
+</html>

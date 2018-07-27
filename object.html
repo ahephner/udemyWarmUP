@@ -1,0 +1,53 @@
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <div class="navbar">
+                        <a class="navbar-brand" href="/index.html">
+                         home
+                        </a>
+                        <a class="navbar-brand" href="/project.html">
+                        calculator
+                        </a>
+                        <a href="/this.html" class="navbar-brand">
+                        this</a>
+                        <a href="/class.html" class="navbar-brand">grid</a>
+                        <div id="clock"></div>
+                        <ul class=" nav navbar-nav navbar-right" >
+                          <input type="text" id='userName' class="form-inline" placeholder="AJ">
+                          <input type="text" id='passWord' class="form-inline" placeholder="hey">
+                          <button class="btn btn-danger btn-xs" onclick="read()">Enter</button>  
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="row"><span class="col-md-3"></span><h1 class = 'col-md-4'>Teams of the North</h1></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button class="btn btn-info teamButton" id='lions' onclick="lions()">Lions</button> <br/>
+                            <button class="btn btn-info teamButton"id='pack' onclick="pack()">Packers</button> <br/>
+                            <button class="btn btn-info teamButton" id='bears' onclick="bears()">Bears</button> <br/>
+                            <button class="btn btn-info teamButton" id='vikes'onclick='vikes()'>Vikings</button> <br/>
+                        </div>
+                       
+                        <div class= 'col-md-6' >
+                           <a href="" id='link'> <img src="" alt="" id='teamLogo'> </a>
+                            <h4 id="team"></h4>
+                            <h4 id="" class="mascot"></h4>
+                            <h4 class="records"></h4>
+                            
+                        </div>
+                </div>
+                </div>
+                <script src="/js/obj.js"></script>
+                <script src="/js/modal.js"></script>
+                <script src="/js/this.js"></script>
+                <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>                
+    </body>
